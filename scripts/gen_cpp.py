@@ -37,7 +37,6 @@
 ## Converts ROS .msg files in a package into C++ source code implementations.
 
 import sys
-import os
 import genmsg.template_tools
 
 msg_template_map = { 'msg.h.template':'@NAME@.h' }

@@ -1,16 +1,20 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 2.8)
 project(gencpp)
-find_package(catkin REQUIRED COMPONENTS genmsg)
-
-catkin_package(
-  CATKIN_DEPENDS genmsg
-  CFG_EXTRAS gencpp-extras.cmake
-)
+find_package(catkin)
 
 add_subdirectory(scripts)
 
-file(WRITE ${CATKIN_DEVEL_PREFIX}/${GENMSG_LANGS_DESTINATION}/gencpp "C++")
-install(FILES ${CATKIN_DEVEL_PREFIX}/${GENMSG_LANGS_DESTINATION}/gencpp
-  DESTINATION ${GENMSG_LANGS_DESTINATION})
+catkin_stack()
+catkin_project(gencpp
+  CFG_EXTRAS gencpp-extras.cmake
+  )
+
+file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/gencpp "C++")
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/gencpp
+  DESTINATION etc/langs
+  )
+
+install(FILES stack.xml
+        DESTINATION share/gencpp)
 
 catkin_python_setup()
