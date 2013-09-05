@@ -1,0 +1,26 @@
+ros-groovy-gencpp (0.4.14-0quantal) quantal; urgency=high
+
+  * make gencpp relocatable (ros/catkin#490 <https://github.com/ros/catkin/issues/490>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 20 Aug 2013 22:00:00 -0000
+
+ros-groovy-gencpp (0.4.13-0quantal) quantal; urgency=high
+
+  * update message targets to depend on template
+  * update msg template to generate empty functions without warnings about unused variables (#4 <https://github.com/ros/gencpp/issues/4>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 17 Jun 2013 22:00:00 -0000
+
+ros-groovy-gencpp (0.4.12-0quantal) quantal; urgency=high
+
+  * fix handling spaces in folder names (ros/catkin#375 <https://github.com/ros/catkin/issues/375>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 07 Mar 2013 23:00:00 -0000
+
+ros-groovy-gencpp (0.4.11-0quantal) quantal; urgency=high
+
+  * first public release for Groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 23:00:00 -0000
+
+
