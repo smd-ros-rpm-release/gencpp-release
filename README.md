@@ -1,3 +1,22 @@
+## gencpp - 0.4.16-0
+
+User `dthomas@drudge` released the packages in the `gencpp` repository by running `/usr/bin/bloom-release -r hydro -t hydro gencpp` on `Mon, 27 Jan 2014 21:32:54 -0000`
+
+The `gencpp` package was released.
+
+Version of package(s) in repository `gencpp`:
+- rosdistro version: `0.4.15-0`
+- old version: `0.4.15-0`
+- new version: `0.4.16-0`
+
+Versions of tools used:
+- bloom version: `0.4.7`
+- catkin_pkg version: `0.1.25`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.0`
+- vcstools version: `0.1.33`
+
+
 ## gencpp - 0.4.15-0
 
 User `dthomas@drudge` released the packages in the `gencpp` repository by running `/usr/bin/bloom-release -t hydro -r hydro gencpp` on `Wed, 08 Jan 2014 06:14:58 -0000`
