@@ -2,6 +2,19 @@
 Changelog for package gencpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.17 (2014-02-25)
+-------------------
+* revert "python 3 compatibility" (introduced in 0.4.15)
+
+0.4.16 (2014-01-27)
+-------------------
+* fix warning about empty message definition (`ros/ros_comm#344 <https://github.com/ros/ros_comm/issues/344>`_)
+
+0.4.15 (2014-01-07)
+-------------------
+* python 3 compatibility
+* fix generated code of message definition with windows line endings (`#6 <https://github.com/ros/gencpp/issues/6>`_)
+
 0.4.14 (2013-08-21)
 -------------------
 * make gencpp relocatable (`ros/catkin#490 <https://github.com/ros/catkin/issues/490>`_)
