@@ -93,7 +93,9 @@ def _escape_string(s):
     return s
 
 def escape_message_definition(definition):
-    lines = definition.split('\n')
+    lines = definition.splitlines()
+    if not lines:
+        lines.append('')
     s = StringIO()
     for line in lines:
         line = _escape_string(line)
