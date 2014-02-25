@@ -1,3 +1,22 @@
+## gencpp (indigo) - 0.5.1-0
+
+User `dthomas@drudge` released the packages in the `gencpp` repository into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo gencpp` on `Tue, 25 Feb 2014 00:55:43 -0000`
+
+The `gencpp` package was released.
+
+Version of package(s) in repository `gencpp`:
+- rosdistro version: `0.5.0-0`
+- old version: `0.5.0-0`
+- new version: `0.5.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## gencpp - 0.5.0-0
 
 User `dthomas@drudge` released the packages in the `gencpp` repository by running `/usr/bin/bloom-release -r indigo -t indigo gencpp` on `Thu, 30 Jan 2014 00:38:00 -0000`
