@@ -2,14 +2,9 @@
 Changelog for package gencpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.5.1 (2014-02-24)
-------------------
-* use catkin_install_python() to install Python scripts (`#18 <https://github.com/ros/gencpp/issues/18>`_)
-* add 'u' suffix to unsigned enum values to avoid compiler warning (`#16 <https://github.com/ros/gencpp/issues/16>`_)
-
-0.5.0 (2014-01-29)
-------------------
-* remove __connection_header from message template (`#3 <https://github.com/ros/gencpp/issues/3>`_)
+0.4.17 (2014-02-25)
+-------------------
+* revert "python 3 compatibility" (introduced in 0.4.15)
 
 0.4.16 (2014-01-27)
 -------------------
